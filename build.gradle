@@ -23,7 +23,9 @@ dependencies {
 
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'com.google.code.gson:gson:2.10.1'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 
     jmh 'org.openjdk.jmh:jmh-core:1.19'
     jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.19'
